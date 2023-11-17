@@ -1,0 +1,2 @@
+--> in layout.js we can add component which we want on every page like header and footer
+--> so that we dont have to add this compo in every page
