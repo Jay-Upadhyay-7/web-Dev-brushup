@@ -1,0 +1,11 @@
+->DOM stands for document object model
+
+->in html every thing is considered as DOM tree
+like window -> html -> body -> div 
+                               /  \
+                            #ele1 #ele2
+
+-> In real dom even if we change an element , it updates/refersh complete dom tree
+-> in virtual dom , it creates multiple copies , and if there is change in original and copy it will update only that part.
+ so in virtual dom complete page dosent render , just a component renders
+ 

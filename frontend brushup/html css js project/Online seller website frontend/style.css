@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 145px;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    padding: 0 150px;
+    gap: 40px;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 99;
+}
+#nav img{
+    height: 65px;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+}
