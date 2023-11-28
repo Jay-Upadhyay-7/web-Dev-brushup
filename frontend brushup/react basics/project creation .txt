@@ -1,0 +1,11 @@
+--> creating react app (in previous way using only react)
+  -> npx create-react-app ./
+  -> npm install --legacy-peer-defs (installing dependicies frpm package.json) 
+  -> npm start
+
+--> creating react app ( new way using react and next.js) (server + client side )
+  -> react library h (framework strucutred hota h jaise express)
+  -> react is merged with next (now we can code client + server) next is a framework
+
+  ->  npx create-next-app
+  ->  npm run dev 

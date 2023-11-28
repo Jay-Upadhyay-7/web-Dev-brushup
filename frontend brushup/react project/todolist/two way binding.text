@@ -1,0 +1,38 @@
+jaise ek input tag h , usme hamne koi value set kardi ek variable ki mada se
+to aab ham use kutch bhi likhe , vo visible nahi hoga , to hame on change ka use karna pdega
+jisme ham use state variable kpo modify krenge
+
+eg..
+"use client"
+import React, { useState } from 'react'
+
+const page = () => {
+  const [title, settitle] = useState("")
+  const [desc, setdesc] = useState("")
+  return (
+   <>
+   <h1 className='bg-black text-white p-5 text-5xl font-bold text-center'>
+    Jay's TODO list
+   </h1>
+   
+   <from>
+      */ ********* two way binding */
+      <input type="text" className='text-2xl border-zinc-800 border-4 m-8 px-4 py-2'
+      placeholder='Enter Task Here'
+      value={title}
+      onChange={(e)=>{
+        settitle(e.target.value)
+      }}/>
+
+      */ ********* two way binding */
+      
+      <input type="text" className='text-2xl border-zinc-800 border-4 m-8 px-4 py-2'
+      placeholder='Enter Description'/>
+       <button className='bg-black px-4 py-2 text-2xl rounded m-5 text-white'>Add Note</button>
+   </from>
+
+   </>
+  )
+}
+
+export default page
