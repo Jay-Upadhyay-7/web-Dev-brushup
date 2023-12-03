@@ -1,0 +1,3 @@
+jab ham react ko next k sath use krte h to kaafi cheeze simple ho jaati h
+next by default server side render krta h
+client side rendering k liye ham use client likhna pdta h

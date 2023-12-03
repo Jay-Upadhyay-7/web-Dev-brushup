@@ -1,0 +1,30 @@
+---->>> page .js
+"use client"
+import React, { useState } from 'react'
+import Header from './Components/Header'
+const page = () => {
+  const [num, setnum] = useState(10)
+  return (
+    <div>
+      Home page
+      <Header num={num}/>
+    </div>
+  )
+}
+
+export default page
+
+
+------>>>>Header omponents 
+import React from 'react'
+
+const Header = (props) => {
+    console.log(props.num)
+  return (
+    <div>
+      Header
+    </div>
+  )
+}
+
+export default Header
